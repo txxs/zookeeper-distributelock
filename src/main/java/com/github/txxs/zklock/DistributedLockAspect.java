@@ -45,7 +45,7 @@ public class DistributedLockAspect {
         }
     }
 
-    @Around("@annotation(com.lecloud.cdn.custoppo.zklock.DistributedLock)")
+    @Around("@annotation(com.github.txxs.zklock.DistributedLock)")
     public Object validate(final ProceedingJoinPoint proceedingJoinPoint) throws Throwable {
         final DistributedLock distributedLock = ((MethodSignature) proceedingJoinPoint.getSignature())
                 .getMethod().getAnnotation(DistributedLock.class);
