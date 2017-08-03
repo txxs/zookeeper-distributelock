@@ -7,11 +7,11 @@
 
 	<groupId>com.github.txxs</groupId>
 	<artifactId>zookeeper-distributelock</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<version>1.0.1</version>
 
 	<name>zookeeper-distributelock</name>
 	<description>zookeeper used for distributelock</description>
+	<url>https://github.com/txxs/zookeeper-distributelock</url>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>

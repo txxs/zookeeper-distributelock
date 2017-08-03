@@ -1,4 +1,4 @@
-package com.github.txxs;
+package com.txxs.distributelock;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

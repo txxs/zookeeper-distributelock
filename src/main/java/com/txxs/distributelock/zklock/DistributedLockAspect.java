@@ -1,4 +1,4 @@
-package com.github.txxs.zklock;
+package com.txxs.distributelock.zklock;
 
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.curator.framework.CuratorFrameworkFactory;
@@ -45,7 +45,7 @@ public class DistributedLockAspect {
         }
     }
 
-    @Around("@annotation(com.github.txxs.zklock.DistributedLock)")
+    @Around("@annotation(com.txxs.distributelock.zklock.DistributedLock)")
     public Object validate(final ProceedingJoinPoint proceedingJoinPoint) throws Throwable {
         final DistributedLock distributedLock = ((MethodSignature) proceedingJoinPoint.getSignature())
                 .getMethod().getAnnotation(DistributedLock.class);

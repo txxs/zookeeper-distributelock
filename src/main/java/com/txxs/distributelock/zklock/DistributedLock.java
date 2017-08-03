@@ -1,4 +1,4 @@
-package com.github.txxs.zklock;
+package com.txxs.distributelock.zklock;
 
 import java.lang.annotation.*;
 
